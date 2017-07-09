@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>elove.demo.functionapp</id>
+    <version>0.0.1</version>
+    <authors>Eric Loveland</authors>
+    <owners>The Werld</owners>
+    <!--<licenseUrl></licenseUrl>-->
+    <projectUrl>https://github.com/elovelan/azure-deploy-demo</projectUrl>
+    <!--<iconUrl></iconUrl>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>function and logic apps oh my</description>
+    <tags></tags>
+  </metadata>
+  <files>
+	  <file src="..\GetUrlFromWebcamDDNSRedirect\**" target="GetUrlFromWebcamDDNSRedirect\" />
+	  <file src="..\host.json" />
+  </files>
+</package>
